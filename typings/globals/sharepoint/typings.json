@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/d88cfbff9d55f5fad35183e29e00e9bc91798ca3/sharepoint/SharePoint.d.ts",
+    "raw": "registry:dt/sharepoint#0.0.0+20161003190438",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/d88cfbff9d55f5fad35183e29e00e9bc91798ca3/sharepoint/SharePoint.d.ts"
+  }
+}
