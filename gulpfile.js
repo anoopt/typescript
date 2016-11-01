@@ -11,7 +11,6 @@ gulp.task('transpile', function(){
 gulp.task('concat-js', function() {
   return gulp.src(config.alljs)
     .pipe($.concat(config.mergedjsfilename))
-    .pipe($.uglify())
     .pipe(gulp.dest(config.mergedfolder));
 });
 
