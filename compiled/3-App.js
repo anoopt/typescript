@@ -3,7 +3,7 @@
 function displayItems(items) {
     var results = "";
     for (var i = 0; i < items.length; i++) {
-        results += "Title: " + items[i].getTitle() + "<br/>Body is : " + items[i].getBody();
+        results += "Title: " + items[i].getTitle() + "<br/>Body: " + items[i].getBody();
     }
     $('#results').append(results);
 }

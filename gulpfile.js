@@ -3,12 +3,12 @@ var gulp = require('gulp');
 var $ = require('gulp-load-plugins')({lazy: true});
 
 gulp.task('transpile', function(){
-  gulp.src(config.allts)
+  return gulp.src(config.allts)
     .pipe($.tsc())
     .pipe(gulp.dest(config.compiledfolder));
 });
 
-gulp.task('concat-js', function() {
+gulp.task('concat-js', ['transpile'], function() {
   return gulp.src(config.alljs)
     .pipe($.concat(config.mergedjsfilename))
     .pipe(gulp.dest(config.mergedfolder));
